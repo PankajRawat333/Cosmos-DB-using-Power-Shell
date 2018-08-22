@@ -30,8 +30,7 @@ $document = @"
 	 "id": "$([Guid]::NewGuid().ToString())",
     "name": "nogps1",
     "type": "nogps"
-    "status": "ACTIVE",
-	  "applicationName": "Eroutes"
+    "status": "ACTIVE"
 }
 "@
 
