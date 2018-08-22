@@ -21,7 +21,7 @@ Create New Collection in testdb with partitionkey='AlertType', Fixed Size throug
 ```New-CosmosDbCollection -Context $cosmosDbContext -Id 'events' -OfferThroughput 1000 -PartitionKey 'serialNumber' -DefaultTimeToLive 604800```
 
 
-# Insert Document
+## Insert Document
 
 ```$cosmosDbContext = New-CosmosDbContext -Account 'apicosmos' -Database 'amsdb' -ResourceGroup 'myresource'
 
